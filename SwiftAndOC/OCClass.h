@@ -10,4 +10,8 @@
 
 @interface OCClass : NSObject
 
+int sum2(int a, int b);
+-(void)desc22;
++(void)desc2; 
+
 @end
