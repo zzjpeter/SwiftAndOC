@@ -12,6 +12,11 @@
 		B52DB20820DCF39C00B2BFF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52DB20620DCF39C00B2BFF5 /* Main.storyboard */; };
 		B52DB20A20DCF39C00B2BFF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52DB20920DCF39C00B2BFF5 /* Assets.xcassets */; };
 		B52DB20D20DCF39C00B2BFF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52DB20B20DCF39C00B2BFF5 /* LaunchScreen.storyboard */; };
+		B52DB21520DCF42F00B2BFF5 /* SwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52DB21420DCF42F00B2BFF5 /* SwiftClass.swift */; };
+		B52DB21720DCF47500B2BFF5 /* SwiftClass1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52DB21620DCF47500B2BFF5 /* SwiftClass1.swift */; };
+		B52DB21B20DCF5B000B2BFF5 /* OCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B52DB21A20DCF5B000B2BFF5 /* OCClass.m */; };
+		B52DB21E20DCF6BD00B2BFF5 /* CClass.c in Sources */ = {isa = PBXBuildFile; fileRef = B52DB21D20DCF6BD00B2BFF5 /* CClass.c */; };
+		B52DB22020DCF6DA00B2BFF5 /* CClassNo.c in Sources */ = {isa = PBXBuildFile; fileRef = B52DB21F20DCF6DA00B2BFF5 /* CClassNo.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,14 @@
 		B52DB20920DCF39C00B2BFF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B52DB20C20DCF39C00B2BFF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B52DB20E20DCF39C00B2BFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B52DB21420DCF42F00B2BFF5 /* SwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClass.swift; sourceTree = "<group>"; };
+		B52DB21620DCF47500B2BFF5 /* SwiftClass1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClass1.swift; sourceTree = "<group>"; };
+		B52DB21820DCF5AF00B2BFF5 /* SwiftAndOC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftAndOC-Bridging-Header.h"; sourceTree = "<group>"; };
+		B52DB21920DCF5B000B2BFF5 /* OCClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCClass.h; sourceTree = "<group>"; };
+		B52DB21A20DCF5B000B2BFF5 /* OCClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCClass.m; sourceTree = "<group>"; };
+		B52DB21C20DCF6BD00B2BFF5 /* CClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CClass.h; sourceTree = "<group>"; };
+		B52DB21D20DCF6BD00B2BFF5 /* CClass.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CClass.c; sourceTree = "<group>"; };
+		B52DB21F20DCF6DA00B2BFF5 /* CClassNo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CClassNo.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,14 @@
 				B52DB20920DCF39C00B2BFF5 /* Assets.xcassets */,
 				B52DB20B20DCF39C00B2BFF5 /* LaunchScreen.storyboard */,
 				B52DB20E20DCF39C00B2BFF5 /* Info.plist */,
+				B52DB21420DCF42F00B2BFF5 /* SwiftClass.swift */,
+				B52DB21620DCF47500B2BFF5 /* SwiftClass1.swift */,
+				B52DB21920DCF5B000B2BFF5 /* OCClass.h */,
+				B52DB21A20DCF5B000B2BFF5 /* OCClass.m */,
+				B52DB21C20DCF6BD00B2BFF5 /* CClass.h */,
+				B52DB21D20DCF6BD00B2BFF5 /* CClass.c */,
+				B52DB21F20DCF6DA00B2BFF5 /* CClassNo.c */,
+				B52DB21820DCF5AF00B2BFF5 /* SwiftAndOC-Bridging-Header.h */,
 			);
 			path = SwiftAndOC;
 			sourceTree = "<group>";
@@ -96,6 +117,7 @@
 				TargetAttributes = {
 					B52DB1FE20DCF39C00B2BFF5 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52DB21E20DCF6BD00B2BFF5 /* CClass.c in Sources */,
+				B52DB21720DCF47500B2BFF5 /* SwiftClass1.swift in Sources */,
 				B52DB20520DCF39C00B2BFF5 /* ViewController.swift in Sources */,
+				B52DB22020DCF6DA00B2BFF5 /* CClassNo.c in Sources */,
+				B52DB21B20DCF5B000B2BFF5 /* OCClass.m in Sources */,
 				B52DB20320DCF39C00B2BFF5 /* AppDelegate.swift in Sources */,
+				B52DB21520DCF42F00B2BFF5 /* SwiftClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +301,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftAndOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.SwiftAndOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftAndOC/SwiftAndOC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +318,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftAndOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.SwiftAndOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftAndOC/SwiftAndOC-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
